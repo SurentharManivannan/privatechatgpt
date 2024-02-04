@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node_modules/next/dist/bin/next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node_modules/next/dist/bin/next start",
     "lint": "next lint",
     "format": "prettier --write .",
     "test": "vitest",
@@ -29,6 +29,7 @@
     "rehype-mathjax": "^4.0.2",
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
+    "start": "^5.1.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

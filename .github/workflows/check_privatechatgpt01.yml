@@ -56,5 +56,6 @@ jobs:
         with:
           app-name: 'privatechatgpt01'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E3CBE4899F4D40C3BD561B3F79B2F2A8 }}
           package: .
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E3CBE4899F4D40C3BD561B3F79B2F2A8 }}
+          
